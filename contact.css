@@ -176,8 +176,8 @@ header h1 {
 
 
 main .container {
-    background-color: white;
-    background: lavenderblush;
+    background-color: lightgreen;
+    background: url('https://github.com/djsmartsol/DJ-Smart-Solutions/blob/main/image.jpg?raw=true');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
