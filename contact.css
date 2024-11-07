@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: pink;
     color: #333;
 }
 
@@ -177,7 +177,7 @@ header h1 {
 
 main .container {
     background-color: white;
-    background: url('C:/Users/sindh/Desktop/DJ/image.jpg');
+    background: lavenderblush;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
