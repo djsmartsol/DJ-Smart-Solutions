@@ -1,0 +1,114 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('C:/Users/sindh/Desktop/DJ/image.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff5b; 
+    padding: 2px;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu ul li {
+    margin-right: 100px;
+  
+}
+
+.nav-menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  
+}
+
+.nav-menu ul li a:hover {
+    color: #4CAF50; 
+}
+
+.toggle_btn {
+    display: none; 
+}
+img{
+    width: 200px;
+    height: auto;
+}
+h1 {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    padding: 200px;
+  }
+
+
+@media (max-width: 768px) {
+    .toggle_btn {
+        display: block; 
+    }
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+    }
+    .nav-menu.responsive {
+        display: flex;
+    }
+}
+
+.about-info p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .about-info {
+        flex-direction: column;
+    }
+}
